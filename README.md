@@ -1,0 +1,1 @@
+https://SeraphyMax.github.io/rsschool-cv/

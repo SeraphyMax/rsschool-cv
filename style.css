@@ -1,0 +1,130 @@
+body {
+    background-color: #2b2c2c;
+    margin: auto;
+}
+
+.head {
+    display: grid;
+    grid-template-columns: 1fr 1.7fr 0.8fr;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #242525;
+    height: 228px;
+}
+
+.name {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #242525;
+    -webkit-text-fill-color: rgb(235, 192, 4);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    -webkit-text-fill-color: rgb(235, 192, 4);
+    text-align: center;
+    background-color: #242525;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-right: 10%;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+    -webkit-text-fill-color: rgb(235, 192, 4);
+}
+
+a:visited {
+    -webkit-text-fill-color: rgba(212, 141, 47, 0.61);
+}
+
+a:hover {
+    -webkit-text-fill-color: rgba(255, 139, 6, 0.5);
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+.photo {
+    width: 99.2%;
+    height: 99.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.main {
+    line-height: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 1000px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b2c2c;
+    -webkit-text-fill-color: rgb(235, 192, 4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.headers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242525;
+    text-align: center;
+    -webkit-text-fill-color: rgb(235, 192, 4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ftr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #2b2c2c;
+    height: 100px;
+    text-align: center;
+}
+
+.ftr1 {
+    height: 70%;
+    width: 70%;
+    justify-self: center;
+    align-self: center;
+}
+
+.ftr2 {
+    height: 38%;
+    width: 38%;
+    justify-self: center;
+}
+
+.ftr3 {
+    justify-self: center;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.language,
+.nav,
+.skills,
+.contact {
+    list-style: none;
+}
