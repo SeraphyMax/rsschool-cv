@@ -53,8 +53,8 @@ h2 {
 }
 
 .photo {
-    width: 99.2%;
-    height: 99.5%;
+    width: 228px;
+    height: 228px;
     display: flex;
     align-items: center;
     justify-content: center;
